@@ -1,0 +1,27 @@
+{
+  "name": "js-feign",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fatshaw/js-feign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "cls-hooked": "4.2.2",
+    "log4js": "^2.3.12",
+    "zipkin": "0.13.0",
+    "zipkin-context-cls": "^0.11.0",
+    "zipkin-instrumentation-express": "0.13.0",
+    "zipkin-transport-http": "0.13.0"
+  }
+}
